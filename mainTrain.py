@@ -39,7 +39,7 @@ for i , image_name in enumerate(yes_tumor_images):
         image = image.resize((INPUT_SIZE,INPUT_SIZE))
         dataset.append(np.array(image))
         label.append(1)
-
+ haushd
 dataset=np.array(dataset)
 label=np.array(label)
 
